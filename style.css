@@ -1,0 +1,108 @@
+body {
+  background-color: #F2F2F2;
+  font-family: 'Open Sans', sans-serif;
+  color: #333333;
+  font-size: 15px;
+  line-height: 1.5em;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Lato', serif;
+  font-size: 32px;
+  line-height: 1.5em;
+  color: #61788C;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 16px;
+  line-height: 1.7em;
+  color: #D9A273;
+}
+
+a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #D9A273;
+}
+
+.main_button {
+  background-color: #61788C;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 10px 15px;
+  max-width: 40%;
+  margin: 24px auto 0;
+  border-radius: 3px;
+}
+
+.main_button:hover {
+  color: #D9A273 !important;
+}
+
+.fab {
+  color: #333333;
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 50px 100px;
+  box-shadow: 0px 10px 20px rgb(0 0 0 / 5%);
+  border-radius: 3px;
+}
+
+img {
+  border-radius: 100%;
+}
+
+.profile {
+  margin-bottom: 30px;
+}
+
+.fab {
+  font-size: 30px;
+  text-align: center;
+  color: #D9A273
+}
+
+.fab:hover {
+  color: #61788C;
+}
+
+.social-links {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+
+@media (max-width: 580px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 100%;
+  }
+
+  .card {
+    padding: 50px;
+  }
+
+  .main_button {
+    max-width: 60%;
+  }
+}
